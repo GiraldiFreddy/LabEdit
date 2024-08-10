@@ -75,7 +75,12 @@ header {
 }
 
 nav {
-  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: #0a0d14;
   border-bottom: 1px solid var(--extra-light);
 }
 
@@ -453,6 +458,10 @@ nav {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: var(--header-font);
+}
+
+.contact__col span a {
+  color: var(--white);
 }
 
 .footer__container {
